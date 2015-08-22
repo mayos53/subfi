@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wallpaper="http://schemas.android.com/apk/res/com.serrofortia.wallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+   >
+   
+    <com.serrofortia.wallpaper.ui.components.TextViewExtended
+        android:id="@+id/title"
+        android:background="@drawable/bg_participants_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey3"
+        android:textSize="17sp"
+        wallpaper:typefaceCustom="hl"
+        android:padding="20dp"
+        android:gravity="center" />
+    
+     
+    <ListView   
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@android:id/list"
+    	android:layout_marginTop="8dp"
+    	android:layout_below="@id/title"
+    ></ListView>
+    
+    
+ 
+
+</RelativeLayout>

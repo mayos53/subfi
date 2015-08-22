@@ -1,0 +1,120 @@
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wallpaper="http://schemas.android.com/apk/res/com.serrofortia.wallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> 
+
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/group_item_bg_selector"
+   >
+ 	
+ 	<com.android.volley.toolbox.NetworkImageView 
+ 	    android:layout_marginLeft="5dp"
+ 	    android:layout_marginTop="5dp"
+ 	    android:layout_width="45dp"
+    	android:layout_height="45dp"
+    	android:id="@+id/groupImage"
+    	android:scaleType="centerCrop"
+    	
+   	    android:layout_centerVertical="true"
+    	
+    	
+    	
+    	/>
+ 	<ImageView 
+ 	    android:id="@+id/groupItemBg"
+ 	    
+ 	    
+ 	    android:layout_height="55dp"
+ 	    android:layout_width="55dp"
+ 	    android:layout_centerVertical="true"
+ 	    android:src="@drawable/group_item_bg_image_selector"
+    />
+    
+    <com.serrofortia.wallpaper.ui.components.TextViewExtended   
+        android:id="@+id/groupName"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/groupImage"
+    	android:layout_marginLeft="17dp"
+    	android:layout_centerVertical="true"
+    	android:textSize="16sp"
+    	wallpaper:typefaceCustom="hb"
+    	android:textColor="@drawable/group_item_name_selector"
+    />
+    
+    <com.serrofortia.wallpaper.ui.components.TextViewExtended   
+        android:id="@+id/badgeCount"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="6dp"
+    	android:layout_toRightOf="@id/groupName"
+    	android:layout_centerVertical="true"
+    	android:gravity="center"
+    	android:text="2"
+    	android:textSize="10sp"
+    	wallpaper:typefaceCustom="hr"
+    	android:textColor="@color/white"
+    	android:background="@drawable/group_item_badge"
+    />
+    
+    
+    <ImageView 
+    	android:id="@+id/arrow"
+    	android:layout_height="wrap_content"
+ 	    android:layout_width="wrap_content"
+ 	    android:src="@drawable/group_item_arrow_selector"
+ 	    android:layout_centerVertical="true"
+ 	    android:layout_alignParentRight="true"
+    />
+    
+   <com.serrofortia.wallpaper.ui.components.TextViewExtended   
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginRight="10dp"
+    	android:layout_centerVertical="true"
+    	android:layout_toLeftOf="@id/arrow"
+    	android:textSize="11sp"
+    	android:text="12:15"
+    	wallpaper:typefaceCustom="hl"
+    	android:textColor="@drawable/group_item_time_selector"
+    />
+    
+   
+    <ImageView 
+    	android:id="@+id/removeGroup"
+    	android:layout_height="wrap_content"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_centerVertical="true"
+ 	    android:src="@drawable/group_item_remove"
+ 	    android:layout_alignParentRight="true"
+ 	    android:padding="5dp"
+ 	    android:visibility="gone"
+    />
+    
+   <ImageView 
+    	android:id="@+id/enableGroup"
+    	android:layout_height="wrap_content"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_toLeftOf="@id/removeGroup"
+ 	    android:layout_centerVertical="true"
+ 	    android:layout_marginRight="10dp"
+ 	    android:padding="5dp"
+ 	    android:visibility="gone"
+ 	    
+    />
+   
+  
+   
+    
+ 
+
+</RelativeLayout>
+
+</FrameLayout>

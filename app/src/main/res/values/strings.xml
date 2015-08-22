@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="enterPhone">Telephone</string>   
+	<string name="enterEmail">Email</string>
+	<string name="enterName">Pseudo</string>
+	<string name="enterCountryCode">Indicatif du Pays</string>
+	
+    
+	<string name="app_name">Subfi</string>
+	<string name="btn_add_group">Ajouter un groupe</string>
+	<string name="add_group_title">Ajouter un groupe</string>
+    <string name="add_group_message">Entrer le nom du groupe</string>
+    <string name="add_member">Ajouter un membre</string>
+   <string name="set_wallpaper">Définir le fond d\'ecran</string>
+    <string name="groups_title">Mes groupes</string>
+   <string  name="loading_message">Opération en cours</string>
+    
+    <string  name="enterConfirmCode">Entrer le code recu par SMS</string>
+    <string  name="btnConfirmCode">OK</string>
+    <string  name="btnResendCode">Envoyer le code a nouveau</string>
+    <string  name="confirmation_failed">Le code n\'est pas correct</string>
+    <string  name="title_confirmation">Code de confirmation</string>
+    <string  name="code_was_sent">Le code vous a ete envoye</string>
+    
+    <string  name="choose_country">Choisir le pays</string>
+    
+    
+    <string  name="group_members">Les Participants</string>
+    
+    <string name="add_wallpaper_title">Titre</string>
+    <string name="add_wallpaper_message">Entrer le titre</string>
+    
+    <string name="number_of_participants">Nombre de participants: %1$s</string>
+    
+    <string name="notification_message">le fond d\'écran \"%1$s\" a été partagé.</string>
+    
+     <string name="register_title">Inscription</string>
+     
+     
+     <string name="conditions">En cochant la case,j\'accepte les &lt;a href=&quot;com.serrofortia.wallpaper://action&quot;&gt;conditions générales&lt;/a&gt; </string>
+     <string name="conditions_text">A remplir...</string>
+     <string name="conditions_title">Conditions générales</string>
+     
+     
+     <string name="pick_contact">Choisir un contact</string>
+     
+     <string name="share_wallpaper">Ajouter un fond d\'écran</string>
+     <string name="take_photo">Prendre une photo</string>
+     <string name="pick_gallery">Choisir de la gallerie</string>
+     
+     <string name="remove_group">Effacer le groupe</string>
+     <string name="disable_group">Désactiver le groupe</string>
+     <string name="enable_group">Activer le groupe</string>
+     <string name="choose_group_action">%1$s</string>
+     
+     <string name="remove_member">Retirer %1$s du groupe </string>
+     
+     <string name="choose_group_title">Choisissez le groupe</string>
+     <string name="app_id">738030592936250</string>
+     
+     <string name="facebook_message">test Fonds d\'écran</string>
+     
+     <string name="friend_was_recommended">Vous avez recommandé %1$s à être ajouté au groupe %2$s. </string>
+     <string name="friend_was_recommended_notification">%1$s a été recommandé par %2$s à être ajouté au groupe %3$s </string>
+     <string name="friend_was_recommended_notification_message">%1$s a été recommandé par %2$s à être ajouté au groupe %3$s.\nVoulez vous l\'ajouter?</string>  
+     <string name="friend_was_recommended_item">%1$s a été recommandé par %2$s</string>  
+     
+     
+     
+     <string name="was_invited">Vous avez invite %1$s a joindre le groupe %2$s. </string>
+     <string name="invited_notification">Vous avez été invite par %1$s à joindre le groupe %2$s </string>
+     <string name="invited_notification_message">Vous avez été invite par %1$s à joindre le groupe %2$s.</string> 
+     
+     <string name="friend_was_added">%2$s.</string>     
+     
+     
+     <string name="validate_register_fields">Veuillez remplir les champs manquants</string>
+     <string name="validate_conditions">Veuillez accepter les conditions générales</string>
+     
+     <string name="error">Une erreur s\'est produite. </string>
+     
+     <string name="enter_group_name_text">Veuillez fournir le nom du groupe que vous souhaitez creer </string>
+     <string name="enter_group_name_hint">Nom du groupe </string>
+     <string name="btnAddGroup">Ajouter </string>
+     
+     <string name="group_name_empty">Veuillez fournir le nom du groupe</string>
+     
+     <string name="no_connection">Veuillez verifier votre connexion a internet</string>
+          <string name="recommendations">Recommendations</string>
+     <string name="invitations">Invitations</string>
+     
+     <string name="or">Ou</string>
+     <string name="already_registered">Deja inscrit? &lt;a href=&quot;com.serrofortia.wallpaper://action&quot;&gt;Entrez&lt;/a&gt; </string>
+     
+     <string name="normal_login">Inscription</string>
+     
+     
+     <string name="optionGallery">Gallerie</string>
+     <string name="optionPhoto">Photo</string>
+     
+     <string name="admin_label">Admin du groupe</string>
+     <string name="recommended_label">Recommendé</string>
+     
+     
+     <string name="yes">Oui</string>
+     <string name="no">Non</string>
+     
+     
+     <string name="left_group">%1$s a quitté le groupe. </string>
+     
+     
+     
+ 
+    
+     
+
+    
+   
+    
+    
+
+</resources>

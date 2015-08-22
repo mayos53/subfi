@@ -1,0 +1,18 @@
+<resources>
+
+    
+    <style name="AppTheme" parent="@style/Theme.Sherlock.Light">>
+      <item name="actionBarSize">53dp</item>
+      <item name="android:actionBarSize">53dp</item>
+      	 
+	</style>
+	
+	<!-- <style name="thin_ab_style" parent="@style/Widget.AppCompat.ActionBar">
+	      <item name="actionBarSize">100dp</item>
+	</style>
+	
+	-->
+    
+    
+
+</resources>

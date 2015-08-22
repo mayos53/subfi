@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="red2">#fe2b5d</color>
+    
+    <color name="grey">#ff65707a</color>
+    <color name="grey2">#ff363737</color>
+    <color name="grey3">#ff363737</color>
+    <color name="grey4">#acb0b4</color>
+    <color name="grey5">#65707a</color>
+    <color name="grey7">#1d1d1d</color>
+    
+    <!-- color for gallery/photo bg -->
+    <color name="grey8">#303030</color>
+    
+    <color name="blue">#ff3fb7c8</color>
+    <color name="group_disabled">#3f3fb7c8</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="white_transparent">#A0FFFFFF</color>
+    
+</resources>

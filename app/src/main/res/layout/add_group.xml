@@ -1,0 +1,57 @@
+
+<RelativeLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wallpaper="http://schemas.android.com/apk/res/com.serrofortia.wallpaper"
+	android:background="@drawable/background"      
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    
+   >
+   
+     <TextView android:layout_width="match_parent"
+    		 android:layout_height="wrap_content"
+    		 android:id="@+id/enter_group_name"
+    		 android:textSize="18sp"
+    		 android:layout_marginTop="45dp"
+    		 android:text="@string/enter_group_name_text"
+    		 android:textColor="@color/grey"
+    		 android:gravity="center"
+    		 
+    		 />
+     
+     <EditText android:layout_width="match_parent"
+    		 android:layout_height="wrap_content"
+    		 android:id="@+id/editGroupName"
+    		 android:background="@drawable/bg_input"
+    		 android:hint="@string/enter_group_name_hint"
+    		 android:layout_below="@id/enter_group_name"
+    		 android:layout_marginTop="25dp"
+    		 android:paddingLeft="13dp"
+    		 
+    		 android:textSize="18sp"
+    		 android:textColorHint="@color/grey4"
+    		 
+    /> 		
+    
+     <com.serrofortia.wallpaper.ui.components.TextViewExtended   
+	        
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_below="@id/editGroupName"
+	    	android:background="@drawable/bg_open_users_selector"
+	    	android:id="@+id/btnAddGroup"
+	    	android:layout_marginTop="10dp"
+    		android:text="@string/btnAddGroup"
+	    	android:textSize="23sp"
+	    	wallpaper:typefaceCustom="hl"
+	    	android:textColor="@color/white"
+	    	android:gravity="center"
+	    /> 
+   
+ 
+    
+</RelativeLayout>
+

@@ -1,0 +1,61 @@
+
+<RelativeLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wallpaper="http://schemas.android.com/apk/res/com.serrofortia.wallpaper"
+	android:background="@drawable/background"      
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+ 
+     <ListView   
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/groupWallpapers"
+    	android:layout_marginBottom="70dp"
+    	android:dividerHeight="0dp"
+		android:divider="@null"
+		android:listSelector="@android:color/transparent" 
+		android:cacheColorHint="@android:color/transparent"
+    />
+     
+     
+    
+
+<!--  button  -->
+<RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="47dp"
+    	android:background="@drawable/bg_open_users_selector"
+    	android:layout_below="@id/groupWallpapers"
+    	android:layout_marginLeft="23dp"
+    	android:layout_marginRight="23dp"
+    	android:layout_marginBottom="8dp"
+    	android:layout_marginTop="-60dp"
+    	android:id="@+id/openUsers"
+    	>
+    
+        <com.serrofortia.wallpaper.ui.components.TextViewExtended   
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="23dp"
+	    	android:layout_centerVertical="true"
+	    	android:text="@string/group_members"
+	    	android:textSize="23sp"
+	    	wallpaper:typefaceCustom="hl"
+	    	android:textColor="@color/white"
+	    />
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_centerVertical="true"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_marginRight="12dp"
+	    	android:src="@drawable/btn_participants_arrow"
+	    	
+	    	/>
+    	
+    </RelativeLayout>
+</RelativeLayout>
+
