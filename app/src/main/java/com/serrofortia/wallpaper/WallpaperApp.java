@@ -1,5 +1,7 @@
 package com.serrofortia.wallpaper;
 
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -76,7 +78,10 @@ public class WallpaperApp extends Application{
 	
 	@Override
 	public void onCreate() {
-		mPrefs = getSharedPreferences(SHARED_PREFERENCES, 0);
+        if(!Tools.DEBUG) {
+            Fabric.with(this, new Crashlytics());
+        }
+        mPrefs = getSharedPreferences(SHARED_PREFERENCES, 0);
 		gson = new GsonBuilder().create();
 		
 		ImageLoader.ImageCache imageCache = new BitmapLruCache();

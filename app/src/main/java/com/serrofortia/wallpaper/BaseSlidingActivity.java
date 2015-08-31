@@ -27,8 +27,8 @@ public abstract class BaseSlidingActivity extends BaseActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 
-		mMenuDrawer = MenuDrawer.attach(this, MenuDrawer.Type.STATIC);
-		super.onCreate(savedInstanceState);
+        mMenuDrawer = MenuDrawer.attach(this, MenuDrawer.Type.BEHIND, Position.LEFT, MenuDrawer.MENU_DRAG_WINDOW);
+        super.onCreate(savedInstanceState);
 		// THIS HAPPENS: mMenuDrawer.setContentView(getActivityLayout());
 
 		// Set Menu view
@@ -44,7 +44,7 @@ public abstract class BaseSlidingActivity extends BaseActivity {
 //		mMenuDrawer.setDropShadow(getResources().getDrawable(R.drawable.shdw_upper_pane));
 //		mMenuDrawer.setDropShadowSize(getResources().getDrawable(R.drawable.shdw_upper_pane).getIntrinsicWidth());
 
-		
+		//
 
 		btnGroups = mMenuDrawer.findViewById(R.id.btnGroups);
 	//	btnInvitations = mMenuDrawer.findViewById(R.id.btnInvitations);
