@@ -70,6 +70,8 @@
 	    	android:textSize="13sp"
 	    	wallpaper:typefaceCustom="hr"
 	    	android:textColor="@color/white"
+            android:maxLength="15"
+            android:ellipsize="end"
 	    />
         
     </RelativeLayout>

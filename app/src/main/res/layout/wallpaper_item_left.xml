@@ -62,6 +62,8 @@
 	    	android:layout_marginBottom="6dp"
 	    	android:layout_centerHorizontal="true"
 	    	android:text="Titre de la photo"
+            android:maxLength="15"
+            android:ellipsize="end"
 	    	android:textSize="13sp"
 	    	wallpaper:typefaceCustom="hr"
 	    	android:textColor="@color/white"

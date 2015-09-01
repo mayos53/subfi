@@ -25,6 +25,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.Point;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
+import android.os.Build;
 import android.provider.ContactsContract;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
@@ -43,7 +45,7 @@ public class Tools {
 	
 	protected final static String TAG = Tools.class.getSimpleName();
 
-	public static final boolean DEBUG = false;
+	public static final boolean DEBUG = true;
 	public static final boolean SMS = false;
 
 	
@@ -381,11 +383,22 @@ public class Tools {
 	}
 	
 	public static void hideKeyboard(Context context, EditText et) {
-
 		InputMethodManager imm = (InputMethodManager) context
 				.getSystemService(Context.INPUT_METHOD_SERVICE);
 		imm.hideSoftInputFromWindow(et.getWindowToken(), 0);
 	}
+
+    public static String uriToFilename(Context context, Uri uri) {
+        String path;
+        if (Build.VERSION.SDK_INT < 11) {
+            path = RealPathUtil.getRealPathFromURI_BelowAPI11(context, uri);
+        } else if (Build.VERSION.SDK_INT < 19) {
+            path = RealPathUtil.getRealPathFromURI_API11to18(context, uri);
+        } else {
+            path = RealPathUtil.getRealPathFromURI_API19(context, uri);
+        }
+        return path;
+    }
 	
 	
 }
